@@ -9032,7 +9032,7 @@ a.text-dark:hover, a.text-dark:focus {
     margin-bottom: 2rem;
     left: 10%;
     width: 80%;
-    height: 80%;
+    height: 100%;
     z-index: -999!important;
   }
 }
