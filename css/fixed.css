@@ -47,22 +47,24 @@ margin-right: 0px!important;
 /*--- iOS Fixed Background Image --*/
 .fixed-background {
   position: relative;
+  top: 50px;
   width: 100%;
+  height: 500px;
 }
 .fixed-wrap {
-  clip: rect(0, auto, auto, 0);
+  clip: rect(100, auto, auto, 0);
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 100px;
+  left: 10%;
+  width: 80%;
+  height: 80%;
   z-index: -999!important;
 }
 .fixed {
   position: fixed;
   display: block;
   top: 0;
-  left: 0;
+  left: 200;
   width: 100%;
   height: 100%;
   background-size: cover;
