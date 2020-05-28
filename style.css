@@ -15,14 +15,14 @@
   font-size: 1.2rem;
   text-transform: uppercase;
   margin: 1rem;
-  border-color: #1ebba3;
-  background-color: #1ebba3;
+  border-color: #ff0000;/*#1ebba3;*/
+  background-color: #ff0000;/*#1ebba3;*/
   color: white;
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
-  border-color: #189582;
-  background-color: #189582;
+  border-color: #ff0000;/*#1ebba3;*/
+  background-color: #ff0000;/*#1ebba3;*/
   color: white;
 }
 
@@ -38,14 +38,14 @@ body {
 .navbar {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   letter-spacing: 0.1rem;
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: rgba(255, 255, 255, 0.6) !important;
 }
 
 /*==== Reduce logo size so that top navbar gets smaller =====*/
 .navbar img {
-  height: 2rem;
+  height: 3rem;
 }
 
 /*==== spacing between the navigation links =====*/
@@ -54,28 +54,28 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: white;
+  color: #505962;
   padding-top: 0.8rem;
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #1ebba3;
+  color: #ff0000;/*#1ebba3;*/
 }
 
 /*==== Landing =====*/
 .home-inner {
-  background-image: url(img/smartwheel.jpg);
+  background-image: url(img/2_Products_1.jpg);
 }
 
 .caption {
   width: 100%;
   max-width: 100%;
   position: absolute;
-  top: 38%;
+  top: 22%;
   z-index: 1;
   text-transform: uppercase;
-  color: white;
+  color: #505962;
 }
 
 .caption h1 {
